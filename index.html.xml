@@ -1,0 +1,57 @@
+<!--
+
+	Hardware supported configurations:
+
+	Adapter: Radeon RX 580 Series
+	Adapter index: 0
+		Modes (width x height x refresh):
+			800x600x60
+			800x600x75
+			1024x600x60
+			1024x600x75
+			1024x768x60
+			1024x768x75
+			1152x864x60
+			1280x720x50
+			1280x720x59
+			1280x720x60
+			1280x768x60
+			1280x800x60
+			1280x1024x60
+			1280x1024x75
+			1366x768x60
+			1400x1050x60
+			1440x900x60
+			1600x900x60
+			1600x1200x60
+			1680x1050x60
+			1920x1080x50
+			1920x1080x59
+			1920x1080x60
+			1920x1200x60
+			2560x1440x60
+
+-->
+<renderer_config>
+	<d3d_device
+		adapter = "Radeon RX 580 Series"
+		adapter_index = "0"
+		resolution = "1920 1080"
+		windowed = "false"
+		refresh_rate = "60"
+		aspect_ratio = "1.77778"
+		v_sync = "0"
+	/>
+	<render_settings>
+		<variable name="max_anisotropy" value="1"/>
+		<variable name="texture_quality_default" value="low"/>
+		<variable name="shadow_quality_default" value="low"/>
+	</render_settings>
+</renderer_config>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
+</html>
